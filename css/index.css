@@ -1,3 +1,222 @@
+/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* My code */
+
+
+html{
+	font-size: 62.5%;
+}
 img {
     width: 400px;
+}
+h1{
+	font-size: 4rem;
+}
+h2{
+	font-size: 3rem;
+}
+.top p{
+	font-size: 1.8rem;
+}
+
+h3{
+	font-size: 2rem;
+}
+h4{
+	font-size: 1.8rem;
+	padding:10px;
+}
+
+
+.container{
+	background-color: #6B686C;
+	padding: 5px auto;
+	margin: auto;
+}
+*{
+    color:white;
+}
+.top, contact, footer{
+    background-color: #C84C09;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	}
+
+nav a{
+		color:lightgray;
+		text-decoration: none;
+		font-size: 2rem;
+		font-weight:bold;
+		text-align:center;
+		margin: 10px 38px 0 10px;
+	}
+	button{
+		margin: auto;
+		border: 1px;
+		padding: 5px 30px;
+		font-size: 2rem;
+		background-color:#0E0D0D;
+
+
+	}
+
+.top{
+	display: flex;
+}
+
+.middle{
+	display: flex;
+	justify-content: space-between;
+}
+.middle p{
+	font-size: 1.5rem;
+}
+
+.middle img{
+	width:140px;
+	height: auto;
+}
+
+.testimonials{
+	display: flex;
+	justify-content: space-between;
+}
+
+.testimonials p{
+	font-size: 1.5rem;
+}
+.testimonials img{
+	size:100%;
+	border-radius:70%;
+	height:170px;
+	width:auto;
+	overflow: hidden;
+}
+.about p{
+	font-size: 1.5rem;
+}
+.contact p{
+	font-size: 1.5rem;
+	padding:5px;
+
+}
+footer{
+text-align: center;
+font-size: 1.2rem;
+padding: 20px;
+}
+
+/* Responsive */
+
+@media(max-width: 800px) {
+  .container {
+	background:grey;
+  }
+
+  nav {
+	display: flex;
+	flex-direction:row;
+  }
+
+  .container header nav a {
+	margin-bottom: 20px;
+  }
+  
+
+}
+
+
+@media(max-width: 500px) {
+  .container {
+	background:lightseagreen;
+  }
+
+  nav {
+	display: flex;
+	flex-direction: column;
+  }
+
+  .container header nav a {
+	/* margin-bottom: 20px; */
+	border: 1px solid grey;
+	margin: 0;
+	padding: 20px;
+}
+
+.middle{
+	display: flex;
+	flex-direction: column;
+}
+.testimonials{
+	display: flex;
+	flex-direction: column;
 }
