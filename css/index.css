@@ -61,7 +61,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    
 }
 
 
@@ -72,31 +72,37 @@ html{
 	font-size: 62.5%;
 }
 img {
-    width: 400px;
+	width: 500px;
+	height:auto;
 }
 h1{
 	font-size: 4rem;
+	margin: 5px;
 }
 h2{
 	font-size: 3rem;
+	margin:5px;
 }
 .top p{
 	font-size: 1.8rem;
+	margin: 5px;
 }
 
 h3{
 	font-size: 2rem;
+	margin: 5px;
 }
 h4{
 	font-size: 1.8rem;
-	padding:10px;
+	padding:5px;
+	margin: 5px;
 }
 
 
 .container{
 	background-color: #6B686C;
 	padding: 5px auto;
-	margin: auto;
+	margin:1px;
 }
 *{
     color:white;
@@ -119,14 +125,20 @@ nav a{
 		text-align:center;
 		margin: 10px 38px 0 10px;
 	}
+
+nav a:hover{
+	color:  #C84C09;
+	text-decoration-line: underline;
+}
 	button{
 		margin: auto;
 		border: 1px;
 		padding: 5px 30px;
 		font-size: 2rem;
 		background-color:#0E0D0D;
-
-
+	}
+	button:hover{
+		background-color:#C84C09;
 	}
 
 .top{
@@ -185,6 +197,7 @@ nav a{
 }
 .about p{
 	font-size: 1.5rem;
+	margin: 5px;
 }
 .contact p{
 	font-size: 1.5rem;
