@@ -238,7 +238,7 @@ padding: 20px;
 
 @media(max-width: 500px) {
   .container {
-	background:lightseagreen;
+	background:lightslategray;
 	margin:0 !important;
   }
 
@@ -269,10 +269,13 @@ padding: 20px;
 	display: flex;
 	flex-direction: column;
 }
+ .Picture{
+	background-color: lightslategrey;
+}
 .Picture{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	background-color: lightseagreen;
+	
 }
 }
