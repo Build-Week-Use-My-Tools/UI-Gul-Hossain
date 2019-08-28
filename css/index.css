@@ -200,6 +200,11 @@ padding: 20px;
 	background:lightseagreen;
   }
 
+  .top{
+	  max-width: 500px;
+	  height:auto;
+  }
+
   nav {
 	display: flex;
 	flex-direction: column;
@@ -219,4 +224,5 @@ padding: 20px;
 .testimonials{
 	display: flex;
 	flex-direction: column;
+}
 }
