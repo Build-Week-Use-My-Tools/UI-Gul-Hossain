@@ -161,6 +161,28 @@ nav a{
 	width:auto;
 	overflow: hidden;
 }
+.Picture{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.Picture p{
+	font-size: 1.5rem;
+	color:black;
+}
+
+.Picture h3{
+	color:black;
+}
+.Picture img{
+	size:100%;
+	border-radius:70%;
+	height:170px;
+	width:auto;
+	overflow: hidden;
+}
 .about p{
 	font-size: 1.5rem;
 }
@@ -191,6 +213,12 @@ padding: 20px;
 	margin-bottom: 20px;
   }
   
+  .Picture{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width:800px;
+}
 
 }
 
@@ -219,6 +247,7 @@ padding: 20px;
 	padding: 20px;
 }
 
+
 .middle{
 	display: flex;
 	flex-direction: column;
@@ -226,5 +255,11 @@ padding: 20px;
 .testimonials{
 	display: flex;
 	flex-direction: column;
+}
+.Picture{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: lightseagreen;
 }
 }
