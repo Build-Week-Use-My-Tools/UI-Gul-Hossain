@@ -178,6 +178,9 @@ nav a:hover{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	height: 1124px;
+	max-width:600px;
+	margin: 2% auto;
 	
 }
 
@@ -274,6 +277,7 @@ padding: 20px;
 
   .top img{
 	  width: 90%;
+	  margin:auto;
   }
 
   nav {
@@ -301,7 +305,12 @@ padding: 20px;
 	display: flex;
 	justify-content: space-between;
 	
-	width:500px;
+	width:90%;
+	margin:auto;
 	background-color: lightslategray;
+}
+
+.Picture .bottom{
+	width: 182px;
 }
 }
