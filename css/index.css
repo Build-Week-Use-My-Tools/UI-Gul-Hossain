@@ -250,6 +250,7 @@ padding: 20px;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
+	}
 	.Picture{
 		display: flex;
 		justify-content: space-between;
@@ -269,6 +270,10 @@ padding: 20px;
 	  max-width: 500px;
 	  height:auto;
 	  flex-direction:column;
+  }
+
+  .top img{
+	  width: 90%;
   }
 
   nav {
