@@ -108,7 +108,8 @@ h4{
     color:white;
 }
 .top, contact, footer{
-    background-color: #C84C09;
+	background-color: #C84C09;
+	
 }
 
 nav{
@@ -192,10 +193,13 @@ nav a:hover{
 	size:100%;
 	border-radius:70%;
 	height:170px;
-	width:auto;
+	width:130px;
 	overflow: hidden;
+	background-color: #6B686C;
 }
+
 .about p{
+	
 	font-size: 1.5rem;
 	margin: 5px;
 }
@@ -213,33 +217,52 @@ padding: 20px;
 /* Responsive */
 
 @media(max-width: 800px) {
-  .container {
-	background:grey;
-  }
-
-  nav {
-	display: flex;
-	flex-direction:row;
-  }
-
-  .container header nav a {
-	margin-bottom: 20px;
-  }
-  
-  .Picture{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width:800px;
-}
-
-}
+	.container {
+		background:lightslategray;
+		
+	  }
+	
+	  .top{
+		  max-width: 800px;
+		  height:auto;
+		  flex-direction:column;
+	  }
+	
+	  nav {
+		display: flex;
+		justify-content: space-between;
+	  }
+	
+	  .container header nav a {
+		/* margin-bottom: 20px; */
+		border: 1px solid grey;
+		margin: 0;
+		padding: 20px;
+	}
+	
+	
+	.middle{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.testimonials{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	.Picture{
+		display: flex;
+		justify-content: space-between;
+		width:800px;
+		background-color: lightslategray;
+	}
+	}
 
 
 @media(max-width: 500px) {
   .container {
 	background:lightslategray;
-	margin:0 !important;
+	
   }
 
   .top{
@@ -269,13 +292,11 @@ padding: 20px;
 	display: flex;
 	flex-direction: column;
 }
- .Picture{
-	background-color: lightslategrey;
-}
 .Picture{
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	justify-content: space-between;
 	
+	width:500px;
+	background-color: lightslategray;
 }
 }
